@@ -1,16 +1,14 @@
-.nav-link{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 60px;
-    padding: 5px;
-    margin: 0 6px 6px;
-    background: blue;
-    text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: white;
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
-  
-.active {
-    color: red;
+
+.nav-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.nav-link.active {
+  font-weight: bold;
 }
